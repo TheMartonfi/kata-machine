@@ -26,4 +26,3 @@ export default function compare(
 
     return compare(a?.left, b?.left) && compare(a?.right, b?.right);
 }
-
