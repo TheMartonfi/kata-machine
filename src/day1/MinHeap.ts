@@ -78,4 +78,3 @@ export default class MinHeap {
         return Math.floor(idx * 2 + 2);
     }
 }
-
