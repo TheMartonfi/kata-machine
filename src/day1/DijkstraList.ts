@@ -53,5 +53,5 @@ export default function dijkstra_list(
         curr = prev[curr];
     }
 
-    return [source, ...out];
+    return [source, ...out.reverse()];
 }
